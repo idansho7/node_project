@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "name": "admin",
+      "email": "admin@adm.com",
+      "password": "1234admin",
+      "isBusiness": true,
+      "id": 1
+    }
+  ],
+  "cardLists": [
+    {
+      "userId": 1,
+      "cards": [
+        {
+          "businessName": "Google",
+          "businessDescription": "search engine",
+          "businessAddress": "california",
+          "businessPhone": "0123123457",
+          "businessImage": "https://play-lh.googleusercontent.com/6UgEjh8Xuts4nwdWzTnWH8QtLuHqRMUB7dp24JYVE2xcYzq4HA8hFfcAbU-R-PC_9uA1",
+          "cardColor": ""
+        },
+        {
+          "businessAddress": "kanto Region",
+          "businessDescription": "adorable Pokemon",
+          "businessImage": "https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg",
+          "businessName": "Pikachu",
+          "businessPhone": "0534566789",
+          "cardColor": "#F4FF00"
+        },
+        {
+          "businessAddress": "Los Angeles",
+          "businessDescription": "Youtuber",
+          "businessImage": "https://yt3.googleusercontent.com/ytc/AL5GRJVVORzLF5qyUfe9bpQffFSRsNB2OURZrS5237Lrpw=s900-c-k-c0x00ffffff-no-rj",
+          "businessName": "Markiplier",
+          "businessPhone": "0509877789",
+          "cardColor": "#FF64F2"
+        },
+        {
+          "businessAddress": "Louisiana",
+          "businessDescription": "New orleans Festival",
+          "businessImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2xTBkWaFc4HN1ypeszV_Upb3RULfH5qiDIA&usqp=CAU",
+          "businessName": "Mardi Gras",
+          "businessPhone": "555-5555-5",
+          "cardColor": "#A200F4"
+        },
+        {
+          "businessAddress": "Stark Tower",
+          "businessDescription": "I am iron man",
+          "businessImage": "https://static1.srcdn.com/wordpress/wp-content/uploads/2022/12/tony-stark-and-iron-man-in-the-mcu.jpg",
+          "businessName": "Tony Stark",
+          "businessPhone": "04-8978899",
+          "cardColor": "red"
+        }
+      ],
+      "quantity": 5,
+      "id": 1
+    }
+  ],
+  "log": [
+    {
+      "id": 1,
+      "isLog": false,
+      "isBis": false,
+      "qua": 0
+    }
+  ]
+}

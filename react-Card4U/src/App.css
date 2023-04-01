@@ -1,0 +1,211 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.nav-item{
+  margin-right: 40px;
+  font-size: 20px;
+}
+
+#themeBtn{
+ margin-left: 15px;   
+}
+#footer{
+  /* background-color: #161616; */
+  height: 58px;
+  padding-top: 15px;
+  /* width: 100vw; */
+  position: relative;
+  left: 0;
+  bottom: 0;
+  background-color: #414141;
+  display: flex;
+}
+#footerText{
+  /* color: white; */
+  font-weight: 400;
+  font-size: 22px;
+}
+#navBrand{
+  all: unset;
+  font-size: 31px;
+  cursor: pointer;
+}
+#darkMod{
+  transition: all 0.2s ease-out;
+  margin-bottom: 10px;
+}
+#darkMod:hover{
+  transform: scale(1.09);
+}
+.darkM{
+  transition: all 0.5s;
+}
+#linkSpan{
+  background: rgb(183, 57, 57);
+  font-size: 10px;
+}
+.linkSpanMedia{
+  font-size: 12px;
+  background: rgb(183, 57, 57);
+  border-radius: 5px;
+  margin-left: 10px;
+  color: white;
+  padding: 3px;
+  display: none;
+}
+#pic2{
+  width: 70%;
+}
+.abouteCard{
+  display: flex;
+}
+.divCardShow{
+  display: flex;
+}
+@media (max-width: 993px) {
+  #pic{
+    display: none;
+  }
+  #linkSpan{
+    display: none;
+  }
+  .linkSpanMedia{
+    display: inline-block;
+    
+  }
+  #showCard{
+    font-size: 10px;
+  }
+  #pic2{
+    width: 100%;
+  }
+}
+
+
+.cardId:hover{
+  transform: scale(1.05);
+}
+
+@-webkit-keyframes color-transition {
+	0% {
+		background-color: #0059ff;
+	}
+	33% {
+		background-color: #00ff55;
+	}
+	66% {
+		background-color: #b700ff;
+	}
+	100% {
+		background-color: #000000;
+	}
+}
+
+@keyframes color-transition {
+	0% {
+		background-color: #ff0000;
+	}
+	33% {
+		background-color: #0015ff;
+	}
+	66% {
+		background-color: #ff9d00;
+	}
+	100% {
+		background-color: #00ff04;
+	}
+}
+
+.colorCardBtn{
+	-webkit-animation-name: color-transition;
+	animation-name: color-transition;
+	-webkit-animation-duration: 4s;
+	animation-duration: 4s;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+}
+#colorBtns{
+
+  text-align: center;
+  margin: 10px;
+
+}
+#centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -48px;
+  margin-left: -100px;
+
+}
+#allCard{
+  position: relative;
+  box-shadow: 0 10px 14px 0 #00000033, 0 15px 30px 0 rgba(0, 0, 0, 0.2);
+
+}
+#cardH{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  position: absolute;
+  width: 70%;
+  height: 35%;
+  top:6vh;
+  left: 4.5vw;
+}
+#cardB{
+  position: absolute;
+  top: 40vh;
+  left: 4.5vw;
+  width: 70% ;
+  height: 45%;
+}
+#createCardShow{
+  transform: scale(1.25);
+  position: absolute;
+  top: 20vh;
+  left: 14vw;
+  
+}
